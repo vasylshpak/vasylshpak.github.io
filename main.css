@@ -1,0 +1,708 @@
+html body
+{
+min-width: 750;
+height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+div{
+box-sizing: border-box;
+}
+
+.menu1{
+text-decoration: none;
+width: 102px;
+height: 14px;
+text-shadow: 18px 10px 3px rgba(136, 145, 145, 0.73);
+color: #ffffff;
+font-family: "Press Start 2P";
+font-size: 20px;
+font-weight: 400;
+font-variant: small-caps;
+letter-spacing: 1px;
+font-variant: small-caps;
+}
+.menu2{
+text-decoration: none;
+width: 102px;
+height: 14px;
+text-shadow: 18px 10px 3px rgba(136, 145, 145, 0.73);
+color: #ffffff;
+font-family: "Press Start 2P";
+font-size: 20px;
+font-weight: 400;
+font-variant: small-caps;
+letter-spacing: 1px;
+font-variant: small-caps;
+}
+.menu3{
+text-decoration: none;
+width: 102px;
+height: 14px;
+text-shadow: 18px 10px 3px rgba(136, 145, 145, 0.73);
+color: #ffffff;
+font-family: "Press Start 2P";
+font-size: 20px;
+font-weight: 400;
+font-variant: small-caps;
+letter-spacing: 1px;
+font-variant: small-caps;
+}
+.menu4{
+text-decoration: none;
+width: 102px;
+height: 14px;
+text-shadow: 18px 10px 3px rgba(136, 145, 145, 0.73);
+color: #ffffff;
+font-family: "Press Start 2P";
+font-size: 20px;
+font-weight: 400;
+font-variant: small-caps;
+letter-spacing: 1px;
+font-variant: small-caps;
+}
+#wrapper{
+display: block;
+left: 0px;
+top: 0px;
+padding: 0;
+margin: 0;
+}
+
+header {
+position: fixed;
+display: block;
+left: 0px;
+top: 0px;
+padding: 0;
+margin: 0;
+width: 100%;
+padding: 0px;
+z-index: 58;
+overflow:hidden;
+opacity:0.8;
+filter:alpha(opacity=50);
+-moz-opacity:0.5;
+
+	
+	
+}
+.headernav{
+
+background-color: #4e85ae;
+display: block;
+position: relative;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100px;
+z-index: 2;
+min-width: 750;
+margin:0;
+}
+.logo{
+	width: 194px;
+	height: 66px;
+	float: left;
+    margin-top:8px;
+    margin-left: 10
+    max-width:50%;
+
+ 
+
+}
+.menu{
+display: inline-block;
+text-align: right;
+float: right;
+height: 24px;
+margin-top: 30px;
+margin-right: 10px;
+}
+.menu1{
+	margin: 20px 45px 0  0; 
+}
+.menu2{
+	margin: 20px 45px 0  0; 
+}
+.menu3{
+	margin: 20px 45px 0  0; 
+}
+
+
+.clearfix:after
+{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+
+}
+.pixels
+{
+	position: relative;
+	background-image: url(bit_up.png);
+	display: block;
+	width: 100%;
+	height: 1495px;
+}
+
+.steve{
+	display: block;
+	position: absolute;
+	width: 15%;
+	height: auto;
+	min-width: 92,5px;
+    min-height: 319px;
+    max-width: 185;
+    max-height: 368;
+
+	
+}
+#pic{
+	display: block;
+	position:relative;
+	margin-left: 100px;
+	margin-top: 180px;
+	width: 100%;
+    height: 100%;
+    min-width: 92,5px;
+    min-height: 319px;	
+}
+
+.about{
+  float: right;
+  position: relative;
+  margin-right: 50px;
+  margin-left: 100px
+  }
+  .wbd{
+	width: 100%;
+	height: 
+}
+.wbd
+{ margin: 200px 10% 0 auto ;
+    position: relative;
+	display: block;
+	clear: both;
+}
+    h1 {
+  font-size: 50px;
+  font-family: "Press Start 2P";
+  color: rgb(230, 255, 63);
+  font-variant: small-caps;
+  line-height: 1.2;
+  float: right;
+  text-align: right;
+  text-shadow: 4px 2px 2px #ECD11C;
+  position: relative;
+  min-width: 553,5px;
+  min-height: 29px;
+  width: 100%;
+  height: 100%;
+  z-index:56 ;
+  margin-right: 100px
+ 
+}
+
+.aboutme{
+position: relative;
+display: block;
+width: 1000px;
+height: 700px;
+min-width: 500px;
+min-height: 220px;
+float: right;
+overflow:hidden;
+}
+.about_me_text {
+position: relative;
+color: #ffffff;
+font-family: "Press Start 2P";
+font-size: 15px;
+font-weight: 400;
+font-variant: small-caps;
+letter-spacing: 0.54px;
+text-align: center;
+}
+
+}	
+#skils
+{
+position: relative;
+display: inline-block; 
+width:1144px;
+height:294px;
+}
+.skills_text{
+position: relative;
+width: 149px;
+height: 26px;
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 23px;
+font-weight: 400;
+font-variant: small-caps;
+/* Text style for "h, tml/css" */
+letter-spacing: 0.75px;
+display: inline-block;
+margin-left: 40px;
+}
+
+.skills_text ul li
+{
+margin-top: 23px;
+text-decoration: none;
+list-style-type: none;
+float: left;
+width: 100%
+height: auto;
+z-index: 2;
+}
+
+.skills_colors
+{
+position: relative;
+display: block;
+width: 981px;
+max-width: 100%;
+max-height: auto;
+height: auto;
+}
+#skills_colors_img
+{
+margin-right: 50px;
+margin-left: 220px;
+position: relative;
+display: block;
+width: 65%;
+height: 218px;
+margin-top: -13px;
+z-index: 1;
+margin-left: 250px;
+max-width: 100%;
+max-height: auto;
+}
+
+.want_to_learn
+{
+position: relative;
+width: 788px;
+height: 23px;
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 23px;
+font-weight: 400;
+font-variant: small-caps;
+/* Text style for "want to le" */
+letter-spacing: 1.25px;
+margin: 35px auto 0 40px;
+}
+
+.my_project
+{
+	margin: 200px auto 0px auto;
+	width: 1300px;
+	max-width: 100%;
+	max-height: 710px;
+	height: 710px;
+	position: relative;
+}
+ 
+.projects
+{
+position: relative;
+display: block;
+width: 462px;
+height: 50px;
+max-height: 100%
+max-height:auto;
+text-shadow: 4px 2px 2px #deff05;
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 80px;
+font-weight: 400;
+font-variant: small-caps;
+letter-spacing: 4px;
+margin: 0 auto;
+}
+
+.maket
+{
+	margin-top: 55px;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 501px;
+	max-height: 501px;
+}
+
+.web_makets
+{
+position: relative;
+display: block;
+margin:0 auto;
+width: 100%;
+height: auto;
+}
+
+.code_page {
+position: relative;
+width: 100%;
+height: auto;
+margin: 75px auto 0;
+text-align: center;
+
+
+}
+.code_page a
+{
+position: relative;
+text-decoration: none;
+text-shadow: 18px 10px 3px rgba(136, 145, 145, 0.73);
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 61px;
+font-weight: 400;
+font-variant: small-caps;
+letter-spacing: 2.25px;
+text-align: center;
+z-index: 1;
+}
+
+
+/* ТУТ ПОЧИНАЄТЬСЯ CONTACT*/
+
+.contact{
+background-image: url("contact_background.png");
+display:block;
+position: relative;
+width: 100%;
+height:1069px;
+border: 1px double black; 
+}
+
+/* ДІВ З МЕДВЕДЕМ */
+.bear
+{
+position: absolute;
+display: block;
+width: 405px;
+height: 206px;
+bottom: 0;
+}
+
+#bear_comp
+{
+display: block;
+position: relative;
+
+
+}
+/*ТУТ ПОЧИНАЄТЬСЯ ДІВ SOCIAL*/
+.social{
+display: block;
+position: relative;
+width:568px;
+height:518px;
+max-width: 100%;
+max-height: auto;
+margin:549px auto 0 auto;
+
+}
+/* ТУТ ПОЧИНАЄТЬСЯ ДІВ МЕЙЛ*/
+.mail{
+display: block;
+position: relative;
+width:493px;
+height:82px;
+margin :0 auto;
+
+}
+.mail_icon
+{
+width: 82px;
+height: 82px;
+display: block;
+position: relative;
+float: left;
+
+}
+
+#email_png
+{
+display: block;
+position: relative;
+max-width: 100%;
+max-height: auto;
+}
+/* ТЕКСТ З ДІВ МЕЙЛ*/
+.text_container 
+{
+display: inline;
+position: relative;
+width: 400px;
+height: 37px;
+margin-top: 17px;
+float: right;
+
+}
+.text_email
+{
+display: inline;
+position: relative;
+text-shadow: 7px 4px 0 rgba(97, 94, 94, 0.3);
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 31px;
+font-variant: small-caps;
+letter-spacing: 1.84px;
+text-align: center;
+text-decoration: none;
+}
+
+
+
+/*	ТУТ ПОЧИНАЄТТЬСЯ ДІВ ФЕЙСБУК*/
+.facebook{
+display: block;
+position: relative;
+width:493px;
+height:82px;
+margin :21px auto; 0
+}
+.facebook_icon
+{
+width: 82px;
+height: 82px;
+display: block;
+position: relative;
+float: left;
+max-width: 100%;
+max-height: auto;
+}
+
+#facebook_png
+{
+display: block;
+position: relative;
+max-width: 100%;
+max-height: auto;
+}
+/* ТЕКСТ З ДІВ ФЕЙСБУК*/
+.facebook_text_container 
+{
+display: inline;
+position: relative;
+width: 400px;
+height: 37px;
+margin-top: 17px;
+float: right;
+
+}
+.text_facebook
+{
+display: inline;
+position: relative;
+text-shadow: 7px 4px 0 rgba(97, 94, 94, 0.3);
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 31px;
+font-variant: small-caps;
+letter-spacing: 1.84px;
+text-align: center;
+text-decoration: none;
+}
+
+/*ТУТ ПОЧИНАЄТЬСЯ ЛІНКЕДІН*/
+
+.linkedin{
+display: block;
+position: relative;
+width:493px;
+height:82px;
+margin :21px auto; 0
+}
+.linkedin_icon
+{
+width: 82px;
+height: 82px;
+display: block;
+position: relative;
+float: left;
+max-width: 100%;
+max-height: auto;
+}
+
+#linkedin_png
+{
+display: block;
+position: relative;
+max-width: 100%;
+max-height: auto;
+}
+/* ТЕКСТ З ДІВ ЛІНКЕДІН*/
+.linkedin_text_container 
+{
+display: inline;
+position: relative;
+width: 400px;
+height: 37px;
+margin-top: 17px;
+float: right;
+
+}
+.text_linkedin
+{
+display: inline;
+position: relative;
+text-shadow: 7px 4px 0 rgba(97, 94, 94, 0.3);
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 31px;
+font-variant: small-caps;
+letter-spacing: 1.84px;
+text-align: center;
+text-decoration: none;
+}
+
+/*ТУТ ПОЧИНАЭТЬСЯ INSTAGRAM*/
+
+.instagram{
+display: block;
+position: relative;
+width:493px;
+height:82px;
+margin :21px auto; 0
+}
+.instagram_icon
+{
+width: 82px;
+height: 82px;
+display: block;
+position: relative;
+float: left;
+max-width: 100%;
+max-height: auto;
+}
+
+#instagram_png
+{
+display: block;
+position: relative;
+max-width: 100%;
+max-height: auto;
+}
+/* ТЕКСТ З ДІВ INSTA*/
+.instagram_text_container 
+{
+display: inline;
+position: relative;
+width: 400px;
+height: 37px;
+margin-top: 17px;
+float: right;
+
+}
+.text_instagram
+{
+display: inline;
+position: relative;
+text-shadow: 7px 4px 0 rgba(97, 94, 94, 0.3);
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 31px;
+font-variant: small-caps;
+letter-spacing: 1.84px;
+text-align: center;
+text-decoration: none;
+}
+
+
+/*ТУТ ПОЧИНАЭТЬСЯ GITGUB*/
+
+.github{
+display: block;
+position: relative;
+width:493px;
+height:105px;
+margin :-2px auto; 0
+}
+.github_icon
+{
+width: 82px;
+height: 105px;
+display: block;
+position: relative;
+float: left;
+max-width: 100%;
+max-height: auto;
+}
+
+#github_png
+{
+display: block;
+position: relative;
+max-width: 100%;
+max-height: auto;
+}
+/* ТЕКСТ З ДІВ GITGUB*/
+.github_text_container 
+{
+display: inline;
+position: relative;
+width: 400px;
+height: 37px;
+margin-top: 17px;
+float: right;
+
+}
+.text_github
+{
+display: inline;
+position: relative;
+text-shadow: 7px 4px 0 rgba(97, 94, 94, 0.3);
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 31px;
+font-variant: small-caps;
+letter-spacing: 1.84px;
+text-align: center;
+text-decoration: none;
+
+}
+
+
+
+
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #275577;
+}
+
+footer p {
+position: relative;
+margin: 32px auto 83px 20px;
+float: left;
+display: inline-block;
+width: 634px;
+height: 15px;
+color: #000000;
+font-family: "Press Start 2P";
+font-size: 8px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "©, 2017 VA" */
+letter-spacing: 1.84px;
+}
+
+
+
+
