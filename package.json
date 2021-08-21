@@ -1,8 +1,8 @@
 {
-	"name": "Vasyl-Shpak-CV",
+	"name": "vasylshpak.github.io",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://vasylshpak.github.io/vasyl-shpak-cv",
+	"homepage": "http://vasylshpak.github.io/vasylshpak.github.io",
 	"dependencies": {
 		"react": "^16.11.0",
 		"react-dom": "^16.11.0",
